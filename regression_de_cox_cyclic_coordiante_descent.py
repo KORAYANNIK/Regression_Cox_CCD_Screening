@@ -35,7 +35,7 @@ precision=10**-15
 
 import re
 
-path="./drive/My Drive/Cox_Screening/loan.csv"
+path="./drive/My Drive/Cox_Screening/loan.csv" # données 
 general_data=pd.read_csv(path,sep=',')
 general_data.info()
 
