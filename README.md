@@ -1,6 +1,6 @@
 # Regression_Cox_CCD_Screening
 Le but de ce code est d'exécuter d'implémeter l'algorithme de régression de Cox avec la methode dichotomie ccyclique (Cyclic Coordinate Descent) précédé d'une phase de
-de recherche des intervalles de valeurs (Cyclic Coordinate Bounds) et pouvant etre précédé d'une phase de de screening dans le cas de l'ajout d'une pénalisation de lasso.
+de recherche des intervalles de valeurs (Cyclic Coordinate Bounds) et pouvant etre précédé d'une phase de de screening dans le cas de l'ajout d'une pénalisation de lasso. Voic un [lien] ( https://colab.research.google.com/drive/1F5mRwLrNk-shK41GCPfGoui2YsJQcAAH?usp=sharing ) pour accéder au notebook original .
 Les données proviennent du All Lending Club 2007 à 2018  : En tout un million de données disponible sur [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club?resource=download ) et ayant servi en parti (15 000 point de données) dans le document <<Solving Cox proportionnal Hazards Model and Its Applications>> pour effectuer une implémentation de la Régression de Cox avec Screening  . Le data set retenu pour le training et le test est ici  de 30 000 données et est contenu dans le fichier loan.csv .
   
   Le CCB a été implémenté par la fonction CCB(Limite,fonction,indice,beta_prime) prenant en entrée Limite : l'amplitude maximale de l'intervalle des valeurs possibles,
