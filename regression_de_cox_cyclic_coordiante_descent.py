@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1F5mRwLrNk-shK41GCPfGoui2YsJQcAAH
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 import os
 
@@ -35,7 +35,7 @@ precision=10**-15
 
 import re
 
-path="./drive/My Drive/Cox_Screening/loan.csv" # données 
+path="loan.csv"   #path="./drive/My Drive/Cox_Screening/loan.csv" # données 
 general_data=pd.read_csv(path,sep=',')
 general_data.info()
 
